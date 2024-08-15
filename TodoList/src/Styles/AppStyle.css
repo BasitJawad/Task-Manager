@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: "border-box";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  position: relative;
+}
+.navbar:before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  top: 115%;
+  background-color: #ded1cc;
+}
+.navbar .ListBox li:hover {
+  outline: none;
+  /* border-bottom: 0.5px solid black; */
+  /* background-color: #dbdbdb; */
+  color: red;
+  transition: all 200ms ease;
+  /* padding: 5px; */
+  border-radius: 20px;
+}
+
+.btnAdd:hover {
+  box-shadow: -2px -2px 30px #7a7bb5, -2px -2px #7a7bb5 inset;
+  transition: all 200ms ease;
+}
+
+.headline {
+  box-shadow: 2px 2px 30px inset #7a7bb5, -2px -2px #471605 inset;
+  /* border-radius: 5px; */
+}
+.wrapper{
+  position: relative !important;
+  background: url("../assets/5192479.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.TodoApp{
+  box-shadow: -4px -4px 30px #fff inset , 4px 4px 30px #fff inset;
+  backdrop-filter: blur(30px);
+  
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #3B367F;  /* Background color of the scrollbar track */
+  border-radius: 20px;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #FF2C90, #FE8D77); /* Gradient color */
+  border-radius: 10px; /* Roundness of the scrollbar */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00245C, #3F6AD8); /* Hover effect with reversed gradient */
+}
+.line-dec{
+  text-decoration-color: white !important;
+}
